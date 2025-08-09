@@ -1,0 +1,16 @@
+[package]
+name = "TokenwithSupplyCap"
+version = "1.0.0"
+authors = []
+
+[addresses]
+SC="d6cdb7d7c414c1f9de7da00b741f212cf2799829116a3fa0532f1ef08e34a8ff"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
